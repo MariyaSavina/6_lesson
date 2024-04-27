@@ -1,3 +1,5 @@
+FROM ubuntu:18.04
+RUN apt update
 FROM maven:latest
 FROM tomcat:9.0
 RUN cd boxfuse-sample-java-war-hello/
